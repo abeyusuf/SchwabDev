@@ -1,0 +1,28 @@
+# Core data stack
+numpy
+pandas
+pytz
+python-dotenv
+
+# Performance
+numba
+
+# Plotting
+matplotlib
+
+# Technical analysis
+ta
+pandas-ta
+
+# Brokers / APIs
+schwabdev
+alpaca-trade-api
+
+# Database
+pymongo
+
+# Analytics (quant performance reports)
+quantstats-lumi
+
+# Often needed by quantstats/ta stacks; safe to include
+scipy
