@@ -5,11 +5,11 @@ This repository contains a Python-based trading automation framework that integr
 It is designed for **backtesting** and **live trading**, featuring technical indicator computation, historical data downloading, and modular strategy execution with logging support.
 
 ## Features
-- **Historical Data Downloader**: Fetches and processes price history from Schwab API with retry logic and threading for speed【11†files_uploaded_in_conversation】.
-- **Technical Indicator Engine**: Numba-optimized calculations for RSI, EMA, SMA, ATR, MACD, SuperTrend, and more. Includes custom divergence detection, peak/trough finding, and symbol-specific indicators【12†files_uploaded_in_conversation】.
-- **Strategy Execution**: Flexible rule-based entry and exit system with dynamic conditions, ATR-based exits, percent exits, and max-holding-day enforcement【13†files_uploaded_in_conversation】.
-- **Backtest & Live Modes**: Toggle between simulation and real trading using environment variables. Backtest logs to CSV, live trades log to MongoDB【13†files_uploaded_in_conversation】.
-- **Account Management**: Load credentials from `.env` files, auto-handle Schwab token refresh, and support multiple accounts【14†files_uploaded_in_conversation】.
+- **Historical Data Downloader**: Fetches and processes price history from Schwab API with retry logic and threading for speed.
+- **Technical Indicator Engine**: Numba-optimized calculations for RSI, EMA, SMA, ATR, MACD, SuperTrend, and more. Includes custom divergence detection, peak/trough finding, and symbol-specific indicators.
+- **Strategy Execution**: Flexible rule-based entry and exit system with dynamic conditions, ATR-based exits, percent exits, and max-holding-day enforcement.
+- **Backtest & Live Modes**: Toggle between simulation and real trading using environment variables. Backtest logs to CSV, live trades log to MongoDB.
+- **Account Management**: Load credentials from `.env` files, auto-handle Schwab token refresh, and support multiple accounts.
 
 ## Project Structure
 ```
